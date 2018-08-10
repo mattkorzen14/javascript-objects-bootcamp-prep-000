@@ -1,5 +1,5 @@
 var playlist = {"Maroon 5": "Sunday Morning"};
-function updatePlaylist(playlist, artist, song) {
-  playlist.artist = song;
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist.artistName = songTitle;
   return playlist;
 }
