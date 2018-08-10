@@ -1,6 +1,7 @@
-var playlist = {"Maroon 5": "Sunday Morning", "Billy Joel": "You May be Right"};
+var playlist = {"Maroon 5": "Sunday Morning"};
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist[artistName] = songTitle;
+  console.log(playlist)
   return playlist;
 }
 function removeFromPlaylist(playlist, artistName) {
@@ -11,4 +12,5 @@ function removeFromPlaylist(playlist, artistName) {
 
 }
 
+updatePlaylist(playlist, "These Guys", "I'll Be Fine")
 removeFromPlaylist(playlist, "Maroon 5");
