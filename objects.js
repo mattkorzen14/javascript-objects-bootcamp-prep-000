@@ -12,7 +12,7 @@ function removeFromPlaylist(playlist, artistName) {
 }
 
 updatePlaylist(playlist, "These Guys", "I'll Be Fine")
-removeFromPlaylist(playlist, "Sunday Morning");
+removeFromPlaylist(playlist, "Maroon 5");
 
 var meals = { breakfast: "oatmeal", lunch: "turkey sandwich", dinner: "steak and potatoes" };
 
